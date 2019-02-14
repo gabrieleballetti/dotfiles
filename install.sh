@@ -25,7 +25,7 @@ ln -sfv "$DOTFILES_DIR/runcom/.inputrc" ~
 # symlink mackup configuration file
 # and restore preferences
 if isexecutable mackup; then
-    ln -sfv "$DOTFILES_DIR/mackup/.mackup.cfg" ~
+    ln -sfv "$DOTFILES_DIR/.mackup.cfg" ~
     mackup restore
     echo "Mackup restored your preferences!"
 else
@@ -35,9 +35,6 @@ fi
 # git configuration
 ln -sfv "$DOTFILES_DIR/git/.gitconfig" ~
 ln -sfv "$DOTFILES_DIR/git/.gitignore" ~
-
-# ssh configuration
-ln -sfv "$DOTFILES_DIR/ssh/config" ~/.ssh
 
 # vim configuration
 . "$DOTFILES_DIR/vim/configure-vim.sh"

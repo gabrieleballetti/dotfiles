@@ -1,8 +1,0 @@
-Host SU
-	HostName shell3.math.su.se
-	User gball
-
-Host AWS-EC2
-	HostName ec2-18-188-51-138.us-east-2.compute.amazonaws.com
-	User ec2-user
-	IdentityFile ~/.ssh/AWS-EC2.pem
