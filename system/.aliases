@@ -1,0 +1,23 @@
+# misc abbreviations 
+alias l="ls -la"       # List in long format, include dotfiles
+alias ld="ls -ld */"   # List in long format, only directories
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+
+# list declared aliases, functions, paths
+alias aliases="alias | sed 's/=.*//'"
+alias functions="declare -f | grep '^[a-z].* ()' | sed 's/{$//'"
+alias paths="echo -e ${PATH//:/\\n}"
+
+# system specific aliases
+case $(uname) in
+#	'Darwin')	
+	'Linux')	alias open='xdg-open &>/dev/null' ;;
+esac
+
+# other utilities
+alias ping_euw="ping -s 500 -c 60 104.160.141.3"
+alias speedtest="wget -O /dev/null http://speed.transip.nl/100mb.bin"
+alias week="date +%V"
+

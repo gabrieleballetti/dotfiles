@@ -1,0 +1,8 @@
+# This is Git's per-user configuration file.
+
+[user]
+	name = Gabriele Balletti
+        email = gabrieleballetti@gmail.com
+
+[core]
+	excludesfile = /home/gball/.gitignore
