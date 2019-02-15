@@ -20,6 +20,7 @@ apps=(
 	aria2
     bitwarden-cli
 	git
+    gmp
 	mackup
     parallel
 	python
