@@ -19,6 +19,7 @@ ln -sfv "$DOTFILES_DIR/runcom/.inputrc" ~
 
 # package managers & packages
 # - macos
+. "$DOTFILES_DIR/install/xcode.sh"
 . "$DOTFILES_DIR/install/brew.sh"
 . "$DOTFILES_DIR/install/brew-cask.sh"
 
