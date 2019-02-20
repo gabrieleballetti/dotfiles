@@ -30,8 +30,6 @@ apps=(
 	wget
 	wifi-password
     wine
-    zsh
-    zsh-completions
 )
 
 brew install "${apps[@]}"
