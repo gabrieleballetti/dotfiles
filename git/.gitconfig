@@ -2,7 +2,7 @@
 
 [user]
 	name = Gabriele Balletti
-        email = gabrieleballetti@gmail.com
+        email = gabriele.balletti@gmail.com
 
 [core]
 	excludesfile = /home/gball/.gitignore
